@@ -87,6 +87,138 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   html{
+     box-sizing: border-box;
+   }
+   *,*:before, *:after{
+     box-sizing: inherit;
+   }
+   body{
+     background-color: #f2f2f2;
+     font-family: 'Open Sans', sans-serif;
+   }
+   /* Globales */
+   .contenedor{
+     width: 98%;
+     margin: 0 auto;
+   }
+   @media only screen and (min-width: 480px) {
+    .contenedor{
+      width: 95%;
+    }
+   }
+   @media only screen and (min-width: 768px) {
+    .contenedor{
+      width: 90%;
+    }
+   }
+   @media only screen and (min-width: 992px) {
+    .contenedor{
+      width: 90%;
+      max-width: 1100px;
+    }
+   }
+   h2{
+    font-family: 'Oswald', sans-serif;
+   }
+   /* Header */
+   .hero{
+     background-image: url(../img/encabezado.jpg);
+     height: 100vh;
+     background-position: top center;
+     background-size: cover;
+   }
+   .contenido-header{
+     padding-top: 30px;
+   }
+   @media (min-width: 768px) {
+    .contenido-header{
+      padding-top: 10px;
+    }
+     
+   }
+   nav.redes-sociales{
+     text-align: center;
+   }
+   nav.redes-sociales a{
+     color: #ffff;
+     font-size: 2em;
+     margin-right: 20px;
+   }
+   nav.redes-sociales a:last-of-type{
+     margin-right: 0;
+   }
+   .informacion-evento{
+     text-align: center;
+     color: #ffff;
+   }
+   @media (min-width: 768px) {
+     .informacion-evento{
+       width: 70%;
+       margin: 0 auto;
+       margin-top: 40px;
+     }
+     
+   }
+   .informacion-evento p{
+     margin: 0;
+     display: inline;
+     font-size: 20px;
+     text-transform: uppercase;
+   }
+   .informacion-evento p i{
+     color: #fe4918;
+     font-size: 2.4rem;
+   }
+   .informacion-evento p.fecha{
+     float: left;
+   }
+   .informacion-evento p.ciudad{
+    float: right;
+    text-align: right;
+  }
+  p.slogan{
+    text-transform: none;
+
+  }
+  p.slogan span{
+    font-weight: bold;
+  }
+  h1.nombre-sitio{
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+  }
+  @media (min-width: 768px) {
+    h1.nombre-sitio{
+      font-size: 10.5vw;
+      margin: 0;
+      line-height: 1;
+    }
+  } 
+  /* Barra */
+  .barra{
+    background-color: #353535;
+    padding: 20px 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
