@@ -201,7 +201,39 @@ textarea {
     background-color: #353535;
     padding: 20px 0;
   }
+  .logo {
+    width: 80%;
+  }
+  .logo img{
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .logo{
+      width: 33%;
+      float: left;
+    }
+  }
 
+  /* Nav Principal */
+  nav.navegacion-principal{
+    display: none;
+  }
+  nav.navegacion-principal a{
+    font-family: 'Oswald' , sans-serif;
+    color: #fff;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  @media (min-width: 768px) {
+    nav.navegacion-principal{
+      width: 67%;
+      float: right;
+      text-align: right;
+      display: block;
+    }
+    
+  }
 
 
 
