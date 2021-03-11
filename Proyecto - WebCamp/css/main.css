@@ -145,6 +145,11 @@ textarea {
     font-family: 'PT Sans', sans-serif;
     margin: 0;
   }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
   .button{
     background-color: #fe4918;
     padding: 10px 40px;
@@ -399,8 +404,55 @@ div.detalle-evento p{
   margin-bottom: 20px;
   font-size: 20px;
 }
+/* Seccion Invitados */
 
-
+ul.lista-invitados li{
+  padding: 10px;
+  float: left;
+}
+@media (min-width: 480px) {
+  ul.lista-invitados li{
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  ul.lista-invitados li{
+    width: 33.3%;
+  }
+}
+div.invitado{
+  position: relative;
+  overflow: hidden; /*La imagen se corta*/
+}
+div.invitado img{
+  max-width: 100%;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  transition: all .5s ease-in-out;
+}
+div.invitado:hover img{
+  -webkit-transform: scale(1.1);
+  -webkit-filter: grayscale(0);
+}
+div.invitado p{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px 10px;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  background-color: rgba(0, 0, 0 , .55);
+  font-family: 'Oswald', sans-serif;
+  color: #fe4918;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: all .5s ease-in-out;
+}
+div.invitado:hover p{
+  bottom: -80px;
+  opacity: 0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
