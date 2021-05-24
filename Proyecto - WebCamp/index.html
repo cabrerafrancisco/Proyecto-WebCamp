@@ -1,179 +1,269 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=PT+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=PT+Sans:wght@700&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="css/main.css">
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-
-  <!-- Add your site or application content here -->
-  <header class="site-header">
-    <div class="hero">
-      <div class="contenido-header">
-        <nav class="redes-sociales">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </nav>
-        <div class="informacion-evento">
-          <div class="clearfix">
-            <p class="fecha"><i class="fas fa-calendar-alt"></i> 10-12 Dic</p>
-            <p class="ciudad"><i class="fas fa-map-marker-alt"></i> Tucuman, Arg</p>
-          </div>
-
-          <h1 class="nombre-sitio">TucWebCamp</h1>
-          <p class="slogan">La mejor conferencia de <span>diseño web</span></p>
-        </div><!--Informacion-evento-->
-        
-      </div>
-    </div><!--.hero-->
-
-  </header>
-
-  <div class="barra">
-    <div class="contenedor clearfix">
-      <div class="logo">
-        <img src="img/logo.svg" alt="logo">
-      </div>
-      <div class="menu-movil">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <nav class="navegacion-principal">
-        <a href="#">Conferencia</a>
-        <a href="#">Calendario</a>
-        <a href="#">Invitados</a>
-        <a href="#">Reservaciones</a>
-      </nav>
-    </div><!--.contenedor-->
-  </div><!--.barra-->
-  <section class="seccion contenedor">
-    <h2>La mejor conferencia de diseño web en español</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit harum rem ad porro aliquam, reprehenderit id iusto neque exercitationem ab. Accusamus fuga nesciunt illo omnis quidem cum nihil, libero possimus.
-      Ullam vitae culpa nulla qui sint animi nam consequuntur dicta, accusamus saepe minima, quam reprehenderit amet a, voluptatum soluta? Mollitia qui doloribus molestiae repellat autem et deserunt repellendus, voluptatum suscipit?
-     </p>
-  </section><!--Seccion-->
-  <section class="programa">
-    <div class="contenedor-video">
-      <video autoplay loop poster="/img/bg-talleres.jpg">
-        <source src="/video/video.mp4" type="video/mp4">
-        <source src="/video/video.webm" type="video/webm">
-        <source src="/video/video.ogv" type="video/ogv">
-      </video>
-    </div><!--Contenedor-video-->
-    <div class="contenido-programa">
-      <div class="contenedor">
-        <div class="programa-evento">
-          <h2>Programa del Evento</h2>
-          <nav class="menu-programa">
-            <a href="#"><i class="fa fa-code"></i>Talleres</a>
-            <a href="#"><i class="fa fa-comment"></i>Conferencias</a>
-            <a href="#"><i class="fa fa-university"></i>Seminarios</a>
+  <body>
+    <!-- Add your site or application content here -->
+    <header class="site-header">
+      <div class="hero">
+        <div class="contenido-header">
+          <nav class="redes-sociales">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
           </nav>
-          
-          <div id="talleres" class="info-curso ocultar clearfix">
-            <div class="detalle-evento">
-              <h3>HTML5 , CSS3 y JavaScript</h3>
-              <p><i class="fa fa-clock" aria-hidden="true"></i>16:00 hrs</p>
-              <p><i class="fa fa-calendar"></i>10 de Dic</p>
-              <p><i class="fa fa-user"></i>Francisco Javier Cabrera</p>
+          <div class="informacion-evento">
+            <div class="clearfix">
+              <p class="fecha"><i class="fas fa-calendar-alt"></i> 10-12 Dic</p>
+              <p class="ciudad">
+                <i class="fas fa-map-marker-alt"></i> Tucuman, Arg
+              </p>
             </div>
-            <div class="detalle-evento">
-              <h3>Responsive Web Desing</h3>
-              <p><i class="fa fa-clock"></i>20:00 hrs</p>
-              <p><i class="fa fa-calendar"></i>10 de Dic</p>
-              <p><i class="fa fa-user"></i>Francisco Javier Cabrera</p>
+
+            <h1 class="nombre-sitio">TucWebCamp</h1>
+            <p class="slogan">
+              La mejor conferencia de <span>diseño web</span>
+            </p>
+          </div>
+          <!--Informacion-evento-->
+        </div>
+      </div>
+      <!--.hero-->
+    </header>
+
+    <div class="barra">
+      <div class="contenedor clearfix">
+        <div class="logo">
+          <img src="img/logo.svg" alt="logo" />
+        </div>
+        <div class="menu-movil">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="navegacion-principal">
+          <a href="#">Conferencia</a>
+          <a href="#">Calendario</a>
+          <a href="#">Invitados</a>
+          <a href="#">Reservaciones</a>
+        </nav>
+      </div>
+      <!--.contenedor-->
+    </div>
+    <!--.barra-->
+    <section class="seccion contenedor">
+      <h2>La mejor conferencia de diseño web en español</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit harum rem
+        ad porro aliquam, reprehenderit id iusto neque exercitationem ab.
+        Accusamus fuga nesciunt illo omnis quidem cum nihil, libero possimus.
+        Ullam vitae culpa nulla qui sint animi nam consequuntur dicta, accusamus
+        saepe minima, quam reprehenderit amet a, voluptatum soluta? Mollitia qui
+        doloribus molestiae repellat autem et deserunt repellendus, voluptatum
+        suscipit?
+      </p>
+    </section>
+    <!--Seccion-->
+    <section class="programa">
+      <div class="contenedor-video">
+        <video autoplay loop poster="/img/bg-talleres.jpg">
+          <source src="/video/video.mp4" type="video/mp4" />
+          <source src="/video/video.webm" type="video/webm" />
+          <source src="/video/video.ogv" type="video/ogv" />
+        </video>
+      </div>
+      <!--Contenedor-video-->
+      <div class="contenido-programa">
+        <div class="contenedor">
+          <div class="programa-evento">
+            <h2>Programa del Evento</h2>
+            <nav class="menu-programa">
+              <a href="#"><i class="fa fa-code"></i>Talleres</a>
+              <a href="#"><i class="fa fa-comment"></i>Conferencias</a>
+              <a href="#"><i class="fa fa-university"></i>Seminarios</a>
+            </nav>
+
+            <div id="talleres" class="info-curso ocultar clearfix">
+              <div class="detalle-evento">
+                <h3>HTML5 , CSS3 y JavaScript</h3>
+                <p><i class="fa fa-clock" aria-hidden="true"></i>16:00 hrs</p>
+                <p><i class="fa fa-calendar"></i>10 de Dic</p>
+                <p><i class="fa fa-user"></i>Francisco Javier Cabrera</p>
+              </div>
+              <div class="detalle-evento">
+                <h3>Responsive Web Desing</h3>
+                <p><i class="fa fa-clock"></i>20:00 hrs</p>
+                <p><i class="fa fa-calendar"></i>10 de Dic</p>
+                <p><i class="fa fa-user"></i>Francisco Javier Cabrera</p>
+              </div>
+              <a href="#" class="button float-right">Ver todos</a>
             </div>
-            <a href="#" class="button float-right">Ver todos</a>
-          </div><!--talleres-->
-        </div><!--Programa evento-->
-      </div><!--contenedor-->
-    </div><!--contenido programa-->
-  </section><!--Programa-->
-
-  <section class="invitados contenedor seccion">
-    <h2>Nuestros Invitados</h2>
-    <ul class="lista-invitados clearfix">
-      <li>
-        <div class="invitado">
-          <img src="/img/invitado1.jpg" alt="imagne invitado">
-          <p>Rafael Bautista</p>
+            <!--talleres-->
+          </div>
+          <!--Programa evento-->
         </div>
-      </li>
-      <li>
-        <div class="invitado">
-          <img src="/img/invitado2.jpg" alt="imagne invitado">
-          <p>Shari padel</p>
-        </div>
-      </li>
-      <li>
-        <div class="invitado">
-          <img src="/img/invitado3.jpg" alt="imagne invitado">
-          <p>sebastian Romulo</p>
-        </div>
-      </li>
-      <li>
-        <div class="invitado">
-          <img src="/img/invitado4.jpg" alt="imagne invitado">
-          <p>Susana Saphirus</p>
-        </div>
-      </li>
-      <li>
-        <div class="invitado">
-          <img src="/img/invitado5.jpg" alt="imagne invitado">
-          <p>Harol Bautista</p>
-        </div>
-      </li>
-      <li>
-        <div class="invitado">
-          <img src="/img/invitado6.jpg" alt="imagne invitado">
-          <p>Susan sanchez</p>
-        </div>
-      </li>
-    </ul>
-  </section>
+        <!--contenedor-->
+      </div>
+      <!--contenido programa-->
+    </section>
+    <!--Programa-->
 
+    <section class="invitados contenedor seccion">
+      <h2>Nuestros Invitados</h2>
+      <ul class="lista-invitados clearfix">
+        <li>
+          <div class="invitado">
+            <img src="/img/invitado1.jpg" alt="imagne invitado" />
+            <p>Rafael Bautista</p>
+          </div>
+        </li>
+        <li>
+          <div class="invitado">
+            <img src="/img/invitado2.jpg" alt="imagne invitado" />
+            <p>Shari padel</p>
+          </div>
+        </li>
+        <li>
+          <div class="invitado">
+            <img src="/img/invitado3.jpg" alt="imagne invitado" />
+            <p>sebastian Romulo</p>
+          </div>
+        </li>
+        <li>
+          <div class="invitado">
+            <img src="/img/invitado4.jpg" alt="imagne invitado" />
+            <p>Susana Saphirus</p>
+          </div>
+        </li>
+        <li>
+          <div class="invitado">
+            <img src="/img/invitado5.jpg" alt="imagne invitado" />
+            <p>Harol Bautista</p>
+          </div>
+        </li>
+        <li>
+          <div class="invitado">
+            <img src="/img/invitado6.jpg" alt="imagne invitado" />
+            <p>Susan sanchez</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!--Invitados-->
 
+    <div class="contador parallax">
+      <div class="contenedor">
+        <ul class="resumen-evento clearfix">
+          <li>
+            <p class="numero">6</p>
+            Invitados
+          </li>
+          <li>
+            <p class="numero">15</p>
+            Talleres
+          </li>
+          <li>
+            <p class="numero">3</p>
+            Días
+          </li>
+          <li>
+            <p class="numero">9</p>
+            Conferencias
+          </li>
+        </ul>
+      </div>
+    </div>
 
+    <section class="precios seccion">
+      <h2>Precios</h2>
+      <div class="contenedor">
+        <ul class="lista-precios clearfix">
+          <li>
+            <div class="tabla-precio">
+              <h3>Pase por día</h3>
+              <p class="numero">$30</p>
+              <ul>
+                <li>Bocadillos Gratis</li>
+                <li>Todas las conferencias</li>
+                <li>Todos los Talleres</li>
+              </ul>
+              <a href="#" class="button hollow">Comprar</a>
+            </div>
+          </li>
+          <li>
+            <div class="tabla-precio">
+              <h3>Todos los días</h3>
+              <p class="numero">$50</p>
+              <ul>
+                <li>Bocadillos Gratis</li>
+                <li>Todas las conferencias</li>
+                <li>Todos los Talleres</li>
+              </ul>
+              <a href="#" class="button">Comprar</a>
+            </div>
+          </li>     
+          <li>
+            <div class="tabla-precio">
+              <h3>Pase por 2 días</h3>
+              <p class="numero">$45</p>
+              <ul>
+                <li>Bocadillos Gratis</li>
+                <li>Todas las conferencias</li>
+                <li>Todos los Talleres</li>
+              </ul>
+              <a href="#" class="button hollow">Comprar</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
 
+    <div id="mapa" class="mapa"></div>
 
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script src="https://kit.fontawesome.com/cd3d95316f.js" crossorigin="anonymous"></script>
+  </body>
 </html>
