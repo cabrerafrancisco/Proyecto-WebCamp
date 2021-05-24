@@ -614,6 +614,7 @@ blockquote p::before{
 }
 footer.info-testimonial {
   padding: 0;
+  background-color: #ffffff;
 }
 footer.info-testimonial img{
   float: left;
