@@ -3,4 +3,4 @@
 Comparto esta "Web de Conferencias" ,  de momento solo tiene **html y css** pero mientras voy aprendiendo se va mejorando.. 
 
 
-***Dejo el link--> [Web de Conferencias](webconferenciascabrerafrancisco.netlify.app).***
+***Dejo el link--> webconferenciascabrerafrancisco.netlify.app***
